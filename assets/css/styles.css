@@ -1,0 +1,92 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --primary-color:#FF6B00;
+    --body-text-normal: #606060;
+    --title-text-color: #101010;
+    --light-color: #fff5ef;
+}
+body{
+    background-color: #ffffff;
+    color: var(--text-normal-color);
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+}
+h1,
+h2, h3, h4, h5, h6{
+    color: var(--title-text-color);
+}
+.row-wrapper{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.row-container{
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 15px;
+
+}
+a.primary-button{
+    background-color: var(--primary-color);
+    display: inline-block;
+    font-size: 21px;
+    font-weight: 500;
+    padding: 10px 32px;
+    text-decoration: none;
+    color: white;
+    border-radius: 6px;
+    line-height: 1.6;
+    transition-property: all;
+    transition-property: 500ms;
+    transition-timing-function: linear;
+}
+a.primary-button:hover{
+    background-color: var(--title-text-color);
+    color: var(--primary-color);
+
+}
+
+/* START HEADER */
+.header-row{
+    padding: 25px 0;}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+.header-container ul{
+    display: flex;
+
+}
+.header-container ul a{
+    color: var(--title-text-color);
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 20px;
+}
+.header-container ul a:hover{
+    color: var(--primary-color);
+}
+.header-container > nav > ul > li > ul{
+    display: none;
+}
+.header-container > nav > ul > li >{
+    position: relative;
+}
+.header-container > nav > ul > li:hover > ul{
+    display: block;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    width: 200px;
+}
+.header-container > nav > ul > li > ul a{
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+.header-container > nav > ul > li > ul li:last-child a{
+    border: none;
+}
+/* END HEADER */
