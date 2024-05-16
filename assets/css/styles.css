@@ -90,3 +90,51 @@ a.primary-button:hover{
     border: none;
 }
 /* END HEADER */
+/* START HEADER */
+.hero-row{
+    background-color: #FFF4EA;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+}
+.hero-container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    flex-basis: 60%;
+    flex-grow: 2;
+
+}
+.hero-content h6{
+background-image: url(../images/orangeDot.png);
+background-repeat: no-repeat;
+background-position: left center;
+padding-left: 30px;
+}
+.hero-content h2{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.hero-content h2 span{
+    color: var(--primary-color);
+}
+.hero-banner{
+    flex-basis: 40%;
+    flex-grow: 1;
+}
+.hero-banner img{
+    max-width: 100%;
+    width: 80px;
+}
+
+
+
+/* END HEADER */
