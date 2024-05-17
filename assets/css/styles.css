@@ -18,7 +18,7 @@ h2, h3, h4, h5, h6{
 }
 .row-wrapper{
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-content: center;
 }
 .row-container{
@@ -131,10 +131,38 @@ padding-left: 30px;
     flex-grow: 1;
 }
 .hero-banner img{
-    max-width: 100%;
-    width: 80px;
+    width: 650px;
+    left: 50px;
+    height: 400px;
+
+    
 }
 
 
 
 /* END HEADER */
+/* start poster */
+.hero-banner{
+    padding: 130px 0px 65px 0px;
+}
+.poster-content{
+    padding: 20px;
+    margin-top: 60px;
+    gap: 20px;
+    display: flex;
+    align-items: left;
+}
+.poster-content h6{
+    
+     background-image: url(../images/orangeDot.png);
+     background-repeat: no-repeat;
+      background-position: left;
+      padding-left: 30px;     
+   
+}
+.hero-banner{
+    margin: 0px;
+    padding: 25px 15px 50px 20px;
+    gap: 40px;
+}
+/* end poster */
