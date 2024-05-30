@@ -13,6 +13,9 @@ body{
     color: #222222;
     font-size: 1rem;
 }
+h1, h6{
+    font-family: jost, sans-serif;
+}
 .header-container{
     font-size: 20px;
     font-weight: 500;
@@ -21,20 +24,104 @@ body{
 .header-content{
     display: flex;
     gap: 25px;
-    text-decoration: none;
+    padding-top: 20px;
 }
-.header-content nav{
-    flex-grow: 2;
-}
+
 .header-content a{
     color: #222222;
     text-decoration: none;
 }
-.header-content nav ul{
+.header-btn{
     display: flex;
     justify-content: flex-end;
-    gap: 25px;   
+    gap: 40px;   
+    display: flex;
+    align-items: flex-start;
+    padding-left: 50px;
+    font-size: 14px;
 }
-.header-content nav ul li a{
+.header-btn a{
     text-decoration: none;
+}
+.header-content span button{
+    text-decoration: none;
+    border: none;
+    align-items: flex-end;
+    padding: 0 15px 0 15px;
+    flex-basis: auto;
+    flex-grow: 2;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 100;
+}
+.header-icons{
+    padding-left: 450px;
+}
+/* end header-section */
+/* start-main */
+.main-body{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px 30px 10px;
+}
+.media-icons{
+    color:#767676;
+    
+    align-items: center;
+    font-family: "Jost", sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.7143;
+    margin-right: 1.25rem;
+    width: 5rem;
+    height: 25rem;
+    background-color: #ffffff;
+    
+}
+.media-icons ul li{
+    text-align: center;
+    text-decoration: none;
+    color: #767676;
+}
+.Follow-us-icon{
+    text-decoration: none;
+    color: #767676;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 3rem;
+    display: block;
+    box-sizing: border-box;
+    transform: rotate(90deg);
+    text-align: center;
+    
+
+}
+
+.main-banner{
+    background-color: rgb(245, 230, 224);
+    box-sizing: border-box;
+    width: 1388.200px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: rgb(34, 34, 34);
+    border-color: rgb(238, 238, 238);
+    border-width: 2px;
+
+
+
+}
+.inner-banner-text{
+line-height: 1.2rem;
+}
+.heading{
+color: #c32929;
+text-transform: uppercase;
+display: flex;
+flex-direction: row;
+line-height: 1.2rem;
+}
+.heading hr{
+    width: 40px;
+    line-height: 4px;
+    display: flex;
+    flex-grow: 2;
 }
