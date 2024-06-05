@@ -66,7 +66,7 @@ h1, h6{
 }
 .media-icons{
     color:#767676;
-    
+    padding-top: 400px;
     align-items: center;
     font-family: "Jost", sans-serif;
     font-size: 0.875rem;
@@ -100,17 +100,48 @@ h1, h6{
     background-color: rgb(245, 230, 224);
     box-sizing: border-box;
     width: 1388.200px;
-    padding: 10px;
+    padding: 15px;
     box-sizing: border-box;
     color: rgb(34, 34, 34);
     border-color: rgb(238, 238, 238);
     border-width: 2px;
+    display: flex;
+    flex-direction: row;
 
 
 
 }
 .inner-banner-text{
 line-height: 1.2rem;
+padding-top: 250px;
+}
+.second-heading h1{
+color: rgb(34, 34, 34);
+display: block;
+font-family: "Jost", sans-serif;
+font-size: 70px;
+font-weight: 700;
+line-height: 84px;
+text-transform: uppercase;
+}
+.second-heading h6{
+    color: rgb(34, 34, 34);
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 48px;
+}
+.second-heading button a{
+ font-size: 14px;
+ font-weight: 500;
+ font-family: "Jost", sans-serif;
+ color: rgb(34, 34, 34);
+ text-transform: uppercase;
+
+
 }
 .heading{
 color: #c32929;
@@ -120,8 +151,24 @@ flex-direction: row;
 line-height: 1.2rem;
 }
 .heading hr{
-    width: 40px;
-    line-height: 4px;
+
+    width: 50px;
+    line-height: 0.5px;
     display: flex;
-    flex-grow: 2;
+    flex-direction: row;
+    flex-grow: 0.5;
+    color: #c32929;
+    background-color: #c32929;
+    border: 1px solid #c32929;
+}
+.heading h6{
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+}
+.main-banner img{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
 }
